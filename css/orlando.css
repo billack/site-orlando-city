@@ -1,0 +1,332 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+    font-size: 1em;
+}
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+    font-size: 1em;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(94, 41, 154, .9);
+    z-index: 2;
+    position: relative;
+
+}
+header .container{ 
+    position: relative;
+}
+header .header-black{
+    background-color: #000;
+    height: 40px;
+}
+header .header-black li{ 
+    background-image: url("../img/clubs.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 4px 8px; 
+}
+header .header-black li.club-01{
+    background-position: 0px 0px;
+}
+header .header-black li.club-02{
+    background-position: -47px 0px;
+}
+header .header-black li.club-03{
+    background-position: -94px 0px;
+}
+header .header-black li.club-04{
+    background-position: -140px 0px;
+}
+header .header-black li.club-05{
+    background-position: -190px 0px;
+}
+header .header-black li.club-06{
+    background-position: -240px 0px;
+}
+header .header-black li.club-07{
+    background-position: -290px 0px;
+}
+header .header-black li.club-08{
+    background-position: -335px 0px;
+}
+header .header-black li.club-09{
+    background-position: -380px 0px;
+}
+header .header-black li.club-10{
+    background-position: -430px 0px;
+}
+header .header-black li.club-11{
+    background-position: -480px 0px;
+}
+header .header-black li.club-12{
+    background-position: -528px 0px;
+}
+header .header-black li.club-13{
+    background-position: -577px 0px;
+}
+header .header-black li.club-14{
+    background-position: -630px 0px;
+}
+header .header-black li.club-15{
+    background-position: -675px 0px;
+}
+header .header-black li.club-16{
+    background-position: -720px 0px;
+}
+header .header-black li a{
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+header #logotipo{
+    position: absolute;
+    top: 20px;
+}
+#menu li {
+    display: inline-block;
+    font-family: 'OpenSans';
+    position: relative;
+}
+#menu li.busca{
+    width: 182px;
+    top: 14px;
+    
+    
+}
+#menu li.busca input{
+    background-color: #552586;
+    color: white;
+    border: none;
+}
+#menu li.busca button{
+    background: none;
+    font-size: 22px;
+    border: none;
+    color: white;
+    right: 15px;
+    
+}
+#menu li a {
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+#banner{
+    width: 100%;
+    height: 728px;
+    position: relative;
+    background: url("../img/banner.jpg") no-repeat;
+    top: -130px;
+    background-position: 0px -100px;
+
+}
+#banner h1{
+    color: white;
+    top: 300px;
+    position: relative;
+    font-size: 92px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
+    font-family: 'OpenSans-Light';
+    margin-left: 48px;
+}
+#banner h1 small{
+    color: white;
+    font-size: 32px;
+    display: block;
+    margin-left: 15px;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    
+}
+#news {
+    position: relative;
+    top: -110px;
+}
+#news h2 {
+    color: #552586;
+    font-family: 'OpenSans-Light';
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#news hr{
+    color: #FFD700;
+    border:  solid 2px;
+    width: 300px;
+    margin: 0 auto;
+}
+#news .thumbnails{
+    margin-top: 20px;
+}
+#news .thumbnails h3{
+    color: #552586;
+    font-size: 20px;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+#estatisticas {
+    background-image: linear-gradient(to bottom right, #552586, #804fb3);
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+#estatisticas p{
+    color: #FFD700;
+    font-size: 64px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
+    font-family: 'OpenSans-Light';
+    margin-left: 48px;
+    margin-top: 30px;
+}
+#estatisticas p small{
+    color: #FFD700;
+    font-size: 20px;
+    font-family: 'OpenSans';
+    display: block;
+    text-transform: uppercase;
+}
+#call-to-action {
+    position: relative;
+    top: 30px;
+}
+#call-to-action h2 {
+    color: #552586;
+    font-family: 'OpenSans-Light';
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#call-to-action hr{
+    color: #FFD700;
+    border:  solid 2px;
+    width: 300px;
+
+}
+#call-to-action p {
+    font-family: 'OpenSans-Light';
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#call-to-action .btn{
+    text-decoration: none;
+    width: 120px;
+    height: 44px;
+    line-height: 34px;
+}
+#call-to-action .btn-roxo{
+    color: #fff;
+    background-color: #552586;
+
+}
+#call-to-action .btn-amarelo{
+    color: #000;
+    background-color: #FFD700;
+
+}
+#call-to-action .row-max-400{
+    margin: 0 auto;
+    max-width: 400px;
+}
+footer{
+    width: 100%;
+    margin-top: 110px;
+    margin-bottom: 0px;  
+}
+footer .row-cinza-claro{
+    height: 200px;
+    background-color: #34495e;
+}
+footer .row-cinza-escuro{
+    background-color: #1c2833;
+    border-top: #abb2b9 1px solid;
+}
+footer .pull-left{
+    line-height: 55px;
+    color: #abb2b9;
+    
+}
+footer .pull-right{
+    line-height: 55px;
+    color: #552586;
+    
+}
+footer .logotipo{
+    margin-top: 28px;
+}
+
+footer .col-melhores-itens,
+footer .col-links,
+footer .col-contatos{
+    margin-top: 40px;
+    
+}
+
+footer .row-cols h4{
+    color: white;
+    font-size: 16px;
+    font-family: 'OpenSans';
+    padding-bottom: 17px;
+    border-bottom: #abb2b9 solid 1px;
+
+}
+footer .row-cols h5{
+    color: white;
+    font-size: 14px;
+    font-family: Arial;
+    margin-bottom: 0px;
+    
+}
+footer .row-cols time{
+    color: #cfb367;
+    font-size: 14px;
+    font-family: Arial;
+
+}
+footer .row-cols ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+footer .col-links ul li a{
+    color: white;
+    font-size: 14px;
+    font-family: Arial;
+    text-decoration: none;
+    
+}
+footer .col-links ul li span{
+    margin-left: 5px;
+}
+footer .col-contatos{
+    color: #9b9b9b;
+    font-size: 14px;
+    font-family: Arial;
+    
+}
+footer .col-contatos i{
+    color: white;
+    font-size: 14px;
+    padding-right: 5px;
+    
+}
+footer .col-contatos address{
+    margin-bottom: 6px;
+}
+footer .col-contatos address span{
+    position: relative;
+}
+footer .col-contatos p a{
+    color: #9b9b9b;
+    text-decoration: none;
+}
+
