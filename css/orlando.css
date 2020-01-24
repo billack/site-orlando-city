@@ -86,6 +86,7 @@ header .header-black li a{
 header #logotipo{
     position: absolute;
     top: 20px;
+    z-index: 5;
 }
 #menu li {
     display: inline-block;
@@ -95,13 +96,20 @@ header #logotipo{
 #menu li.busca{
     width: 182px;
     top: 14px;
-    
-    
+    transition: 1s;
+}
+#menu li.busca.ativo{
+    width: 300px;
+    top: 14px;
+   
 }
 #menu li.busca input{
     background-color: #552586;
     color: white;
     border: none;
+}
+#menu li.busca.ativo input{
+    width: 300px;
 }
 #menu li.busca button{
     background: none;
@@ -124,7 +132,6 @@ header #logotipo{
     background: url("../img/banner.jpg") no-repeat;
     top: -130px;
     background-position: 0px -100px;
-
 }
 #banner h1{
     color: white;
@@ -134,6 +141,11 @@ header #logotipo{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
     font-family: 'OpenSans-Light';
     margin-left: 48px;
+    transition: 1s;
+}
+#banner h1.ativo{
+    color: #FFD700;
+    font-size: 105px;
 }
 #banner h1 small{
     color: white;
@@ -154,6 +166,7 @@ header #logotipo{
     font-size: 48px;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 40px;
 }
 #news hr{
     color: #FFD700;
@@ -170,6 +183,12 @@ header #logotipo{
     font-family: 'OpenSans';
     font-weight: bold;
     margin-bottom: 0px;
+}
+#news .thumbnails .item-inner {
+    padding: 10px;
+}
+#news .thumbnails .item-inner img {
+    width: 100%;
 }
 #estatisticas {
     background-image: linear-gradient(to bottom right, #552586, #804fb3);
@@ -195,6 +214,9 @@ header #logotipo{
 #call-to-action {
     position: relative;
     top: 30px;
+}
+#call-to-action .video{
+    text-align: center;
 }
 #call-to-action h2 {
     color: #552586;
@@ -329,4 +351,7 @@ footer .col-contatos p a{
     color: #9b9b9b;
     text-decoration: none;
 }
-
+.video {
+    max-width: 65%;
+    margin: 0 auto;
+}
